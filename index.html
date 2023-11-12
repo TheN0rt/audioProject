@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="./src/styles/style.css">
+   <title>Проигрыватель</title>
+</head>
+<body>
+   <div class="wrapper">
+      <div class="container">
+         <header>
+            <h1>Аудио проигрыватель</h1>
+         </header>
+         <div class="audio-container">
+            <div class="sidebar">
+               <h2>Список песен:</h2>
+               <ul>
+                  
+               </ul>
+            </div>
+            <main>
+               <div id="player">
+                  <audio id="audio" src=""></audio>
+                  <div id="audio-block"></div>
+                  <div class="audio__info">
+                     <img src="./src/assets/img/albums/altSongImg.png" alt="imgSong">
+                     <div class="bottom">
+                        <p class="song__name"></p>
+                        <p class="artist__name"></p>
+                        <input type="range" min="0" max="100" value="0" step="1" class="slider-range">
+                     </div>
+                  </div>
+                  <div class="time-block">
+                     <p id="currentTime"></p>
+                     /
+                     <p id="duration"></p>
+                  </div>
+                  <div class="audio__manager">
+                     <button id="backFarward">
+                        <img src="./src/assets/img/icons/back.png" alt="backFarward">
+                     </button>
+                     <button id="playPause">
+                        <img src="./src/assets/img/icons/play-button-arrowhead.png" alt="playPause">
+                     </button>
+                     <button id="skipFarward">
+                        <img src="./src/assets/img/icons/skip.png" alt="skipFarward">
+                     </button>
+                     <button id="repeatMode">
+                        <img src="./src/assets/img/icons/nonRepeat.png" alt="repeat">
+                     </button>
+                  </div>
+                  <div class="audio__volume">
+   
+                     <img src="./src/assets/img/icons/musicNote.png" alt="volume" id="mute">
+                     <input type="range" min="0" max="100" value="100" step="1" class="volume-range">
+                  </div>
+               </div>
+               <div id="audio-spectrum"></div>
+            </main>
+         </div>
+      </div>
+   </div>
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/wavesurfer.js/1.3.7/wavesurfer.min.js"></script>
+   <script src="./src/js/logic.js"></script>
+   <script src="./src/js/script.js"></script>
+</body>
+</html>

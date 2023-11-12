@@ -1,0 +1,65 @@
+[
+   {
+      "id": 1,
+      "songName": "The Fall and The Rise",
+      "artistName": [" Sum 41"],
+      "src": "/audioProject/src/assets/songs/The_Fall_and_The_Rise.mp3",
+      "album": {
+         "name": "нет",
+         "img": {
+            "src": ""
+         }
+      }
+   },
+   {
+      "id": 2,
+      "songName": "Москва любит...",
+      "artistName": [" Скриптонит"],
+      "src": "/audioProject/src/assets/songs/Skriptonit_-_Moskva_lyubit_68153451.mp3",
+      "album": {
+         "name": "нет",
+         "img": {
+            "src": ""
+         }
+      }
+   },
+
+   {
+      "id": 3,
+      "songName": "Hurricane",
+      "artistName": [" Buried In Verona"],
+      "src": "/audioProject/src/assets/songs/Buried_In_Verona_-_Hurricane_66100754.mp3",
+      "album": {
+         "name": "нет",
+         "img": {
+            "src": ""
+         }
+      }
+   },
+
+   {
+      "id": 4,
+      "songName": "Вот так",
+      "artistName": [" Весъ", " Гуф", " Kolya Funk"],
+      "src": "/audioProject/src/assets/songs/GUF_Ves_Kolya_Funk_-_Vot_tak_72861162.mp3",
+      "album": {
+         "name": "нет",
+         "img": {
+            "src": ""
+         }
+      }
+   },
+
+   {
+      "id": 5,
+      "songName": "Я забираю тебя",
+      "artistName": [" ПНЕВМОСЛОН"],
+      "src": "/audioProject/src/assets/songs/Pnevmoslon_-_YA_zabirayu_tebya_76816030.mp3",
+      "album": {
+         "name": "нет",
+         "img": {
+            "src": ""
+         }
+      }
+   }
+]
